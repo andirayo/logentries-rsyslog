@@ -4,7 +4,7 @@ maintainer_email "adam@hipsnip.com"
 license          "Apache 2.0"
 description      "Installs/Configures Logentries for Rsyslog"
 long_description IO.read(File.join(File.dirname(__FILE__), 'README.md'))
-version          "1.0.0"
+version          "1.0.1"
 supports 'ubuntu', ">= 12.04"
 
 # To support Ubuntu v14.04, usage of Upstart-provider is necessary which was added in v1.12.2 of cookbook RSysLog (see commit 5e341d0f)
