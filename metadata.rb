@@ -7,7 +7,8 @@ long_description IO.read(File.join(File.dirname(__FILE__), 'README.md'))
 version          "1.0.0"
 supports 'ubuntu', ">= 12.04"
 
-depends "rsyslog", "~> 1.5.0"
+# To support Ubuntu v14.04, usage of Upstart-provider is necessary which was added in v1.12.2 of cookbook RSysLog (see commit 5e341d0f)
+depends "rsyslog", "~> 1.12"
 
 attribute "logentries/syslog_selector",
   :display_name => "Syslog Selector",
