@@ -7,3 +7,6 @@ cookbook_test
 metadata.json
 vendor.kitchen/
 *.tar.gz
+
+.idea
+
