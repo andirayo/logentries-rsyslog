@@ -3,9 +3,6 @@ Description [![Build Status](https://travis-ci.org/hipsnip-cookbooks/logentries-
 A simple cookbook for setting up a server to stream logs into Logentries via the
 Token-based input, using Rsyslogd.
 
-> NOTE: While it is fully functional, this cookbook is no longer being actively worked on.
-If you're interested in taking over, please do get in touch!
-
 
 Compatibility
 =============
@@ -14,7 +11,6 @@ Built to run on systems with Rsyslog installed, tested on Ubuntu 12.04.
 
 Attributes
 ==========
-
     ['logentries']['syslog_selector'] = The syslog tags and types to stream into Logentries (defaults to "*.*")
     ['logentries']['resume_retry_count'] = The number of times to retry the sending of failed messages (defaults to unlimited)
     ['logentries']['queue_disk_space'] = The maximum disk space allowed for queues (default to 100M)
@@ -39,8 +35,9 @@ Please refer to the Readme [here](https://github.com/hipsnip-cookbooks/cookbook-
 
 License and Author
 ==================
-
-Author:: Adam Borocz ([on GitHub](https://github.com/motns))
+Authors::
+Andreas Rayo Kniep ([on GitHub](https://github.com/andirayo))
+Adam Borocz ([on GitHub](https://github.com/motns))
 
 Copyright:: 2013, HipSnip Ltd.
 
